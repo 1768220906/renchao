@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-color: #fef8ef;
+}
+.all{
+    min-width: 1300px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: 1500px;
+}
+.center{
+    width: 700px;
+    position: relative;
+}
+#box{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    top: 10px;
+}
+.center #an{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.left{
+    width: 470px;
+    position: relative;
+}
+.left #phdo{
+    width: 470px;
+    height: 300px;
+    /* background-color: gray; */
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+.left #pptoc{
+    width: 470px;
+    height: 300px;
+    /* background-color: gray; */
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+}
+.right{
+    width: 400px;
+    position: relative;
+}
+.right #water{
+    width: 500px;
+    height: 900px;
+    /* background-color: gray; */
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}

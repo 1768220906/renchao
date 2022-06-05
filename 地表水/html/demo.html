@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地表水检测数据</title>
+    <script src="../js/echarts.min.js"></script>
+    <script src="../js/zhuti.js"></script>
+    <link rel="stylesheet" href="../css/map.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+    <div class="all">
+        <div class="left">
+            <!-- ph值 +溶解氧-->
+            <div id="phdo"></div>
+            <script src="../js/ph+do.js"></script>
+            <!-- 总有机碳 +高锰酸钾-->
+            <div id="pptoc"></div>
+            <script src="../js/pp+toc.js"></script>
+        </div>
+        <div class="center">
+            <!-- 中国地图 -->
+            <div id="box"></div>
+                <script type="text/javascript" src="../js/map.js"></script>
+            <div id="an"></div>
+            <script src="../js/an.js"></script>
+        </div>
+        <div class="right">
+            <!-- 河流关系图 -->
+            <div id="water"></div>
+            <script src="../js/water.js"></script>
+        </div>
+    </div>
+</body>
+</html>
